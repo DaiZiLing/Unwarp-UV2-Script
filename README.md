@@ -13,3 +13,15 @@
 可能的BUG：点了一次模型后点Start没反应，此时需要再按一次Start。
 
 附赠一个Unity 5.2.5 的Shader，下面演示图片便是用的这个Shader
+
+![image](https://github.com/DaiZiLing/Unwarp-UV2-Script/blob/main/Images/0319_1.gif)
+
+![image](https://github.com/DaiZiLing/Unwarp-UV2-Script/blob/main/Images/0319_3.png)
+
+# How To Use
+
+1.我在UV#2上贴了一个Checker，打开Unwarp UV后可以看到默认的是一个投影UV
+2.点击运行脚本
+3.重新打开Unwarp UV，并观察贴图通道 2 ，这个通道的UV已经被展开了（草，虽然效果稀烂但起码能放Lightmap）
+
+![image](https://github.com/DaiZiLing/Unwarp-UV2-Script/blob/main/Images/0317_2.gif)
